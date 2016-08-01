@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="about">
+  <style type="text/css">
+  #imgParent{
+    display: none;
+  }
+  #buttons{
+    position: relative;
+    text-align: center;
+    display: block;
+
+  }
+  #chart{
+    position: relative;
+    top: 20px;
+    text-align: center;
+  }
+
+  #msg{
+    display: block;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+
+  }
+
+</style>
+
+ <div>
+
+    <div id='imgInput'>
+      Upload Image : <input type="file" onchange="onFileSelected(event)" value="chose picture">
+    </div>
+    <div id="buttons">
+      <button id="slider" onclick="setMode('slider')" style="background-color:rgb(0, 255, 0)">Auto Slider Mode</button>
+      <button id="play" onclick="setMode('play')" style="background-color:rgb(150, 236, 241)">Play Mode</button> 
+      <p id='msg'> Move mouse pointer In/Out of a circle</p>   
+    </div>
+    <div id="imgParent">
+      <img id="myimage">      
+    </div>
+
+    <div id="chart"></div>
+  </div>
+</ion-content>
