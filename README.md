@@ -1,6 +1,3 @@
-"# ionic_demo_code" 
-"# ionic_demo_code" 
-"# ionic_demo_code" 
-"# demo" 
-"# demo" 
-"#demo" 
+start an ionic project with "start ionic <name of project>"
+replace app folder with app folder in git
+add files in www
