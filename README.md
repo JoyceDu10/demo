@@ -1,4 +1,4 @@
-# Project Title  
+# Ionic Demo
   
 A simple demo app created using ionic.  
   
@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 Follow the instructions in the following link to install ionic and create an ionic project.  
 http://ionicframework.com/docs/v2/getting-started/installation/  
   
-## Running the tests  
+### Running the tests  
   
 Once everything is installed run "ionic serve" in the command line and make sure the starter template is working.  
   
